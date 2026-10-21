@@ -1,0 +1,25 @@
+{
+  "best_pipeline_wmape": 0.2875590172652164,
+  "detector_over_model": 0.8132322084900477,
+  "error_rate": 0.03,
+  "items_per_panel": 20,
+  "note": "the model choice moves the forecast most, which is the opposite of what this experiment was built to show and is reported because it is what was measured. The detector choice moves it about four fifths as much and the treatment about half as much, on a like for like comparison of three options against three. That is the finding worth having: not that cleaning dominates, but that two undocumented defaults sit within the same order of magnitude as the decision a team spends a project on",
+  "question": "does the cleaning choice move the forecast as much as the model choice",
+  "replications": 6,
+  "spread_points": {
+    "detector": {
+      "max": 9.167387004153248,
+      "mean": 3.9485426785971898
+    },
+    "model": {
+      "max": 9.18391383265939,
+      "mean": 4.8553692750666695
+    },
+    "treatment": {
+      "max": 9.29084060396787,
+      "mean": 2.5171495503347066
+    }
+  },
+  "treatment_over_model": 0.5184259749841877,
+  "worst_pipeline_wmape": 0.39273943713326726
+}

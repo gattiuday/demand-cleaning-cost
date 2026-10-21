@@ -1,0 +1,164 @@
+{
+  "best_at_catching_errors": "iqr_rolling",
+  "best_share_of_flags_that_are_errors": 0.6425301482203526,
+  "events_destroyed_per_error_caught": {
+    "iqr_rolling": 0.9951646794662665,
+    "mad": 1.2002034702453916,
+    "zscore": 0.1617548299002837
+  },
+  "gentlest_rule": "zscore",
+  "headline": {
+    "iqr_rolling": {
+      "error_rate": 0.03,
+      "errors_caught": 0.7716952833902632,
+      "real_events_destroyed": 0.7679638893407009,
+      "rule": "iqr_rolling",
+      "share_of_flags_that_are_errors": 0.1448184466081949,
+      "weeks_flagged": 435.6666666666667
+    },
+    "mad": {
+      "error_rate": 0.03,
+      "errors_caught": 0.4967866783599542,
+      "real_events_destroyed": 0.5962450953392983,
+      "rule": "mad",
+      "share_of_flags_that_are_errors": 0.18912977277068976,
+      "weeks_flagged": 218.5
+    },
+    "zscore": {
+      "error_rate": 0.03,
+      "errors_caught": 0.3489050683840238,
+      "real_events_destroyed": 0.056437079987804624,
+      "rule": "zscore",
+      "share_of_flags_that_are_errors": 0.6425301482203526,
+      "weeks_flagged": 45.166666666666664
+    }
+  },
+  "headline_error_rate": 0.03,
+  "items_per_panel": 20,
+  "note": "the trade off is close to one for one and the rules sit at different points on it rather than at different qualities. The z score rule destroys the least and catches a third of the errors; the rolling interquartile rule catches three quarters and destroys three quarters. Under the two rules that catch most of the errors, the large majority of what is removed is real demand. That is not a tuning failure: a promotion and a mis keyed quantity are the same shape and a rule that sees only the series cannot separate them",
+  "question": "of what a cleaning rule removes, how much is error and how much signal",
+  "replications": 6,
+  "series": [
+    {
+      "error_rate": 0.0,
+      "errors_caught": null,
+      "real_events_destroyed": 0.28037508472291084,
+      "rule": "zscore",
+      "share_of_flags_that_are_errors": null,
+      "weeks_flagged": 81.83333333333333
+    },
+    {
+      "error_rate": 0.0,
+      "errors_caught": null,
+      "real_events_destroyed": 0.6186941005781585,
+      "rule": "mad",
+      "share_of_flags_that_are_errors": null,
+      "weeks_flagged": 185.66666666666666
+    },
+    {
+      "error_rate": 0.0,
+      "errors_caught": null,
+      "real_events_destroyed": 0.7944566803262455,
+      "rule": "iqr_rolling",
+      "share_of_flags_that_are_errors": null,
+      "weeks_flagged": 396.3333333333333
+    },
+    {
+      "error_rate": 0.01,
+      "errors_caught": 0.38673215777002595,
+      "real_events_destroyed": 0.17258835193617802,
+      "rule": "zscore",
+      "share_of_flags_that_are_errors": 0.16680213232376453,
+      "weeks_flagged": 60.166666666666664
+    },
+    {
+      "error_rate": 0.01,
+      "errors_caught": 0.5204177705054283,
+      "real_events_destroyed": 0.6116557248803626,
+      "rule": "mad",
+      "share_of_flags_that_are_errors": 0.06983816345277682,
+      "weeks_flagged": 196.5
+    },
+    {
+      "error_rate": 0.01,
+      "errors_caught": 0.7584191430614992,
+      "real_events_destroyed": 0.7857690837763301,
+      "rule": "iqr_rolling",
+      "share_of_flags_that_are_errors": 0.04912491789583679,
+      "weeks_flagged": 408.0
+    },
+    {
+      "error_rate": 0.03,
+      "errors_caught": 0.3489050683840238,
+      "real_events_destroyed": 0.056437079987804624,
+      "rule": "zscore",
+      "share_of_flags_that_are_errors": 0.6425301482203526,
+      "weeks_flagged": 45.166666666666664
+    },
+    {
+      "error_rate": 0.03,
+      "errors_caught": 0.4967866783599542,
+      "real_events_destroyed": 0.5962450953392983,
+      "rule": "mad",
+      "share_of_flags_that_are_errors": 0.18912977277068976,
+      "weeks_flagged": 218.5
+    },
+    {
+      "error_rate": 0.03,
+      "errors_caught": 0.7716952833902632,
+      "real_events_destroyed": 0.7679638893407009,
+      "rule": "iqr_rolling",
+      "share_of_flags_that_are_errors": 0.1448184466081949,
+      "weeks_flagged": 435.6666666666667
+    },
+    {
+      "error_rate": 0.06,
+      "errors_caught": 0.31821484249903986,
+      "real_events_destroyed": 0.015611237531527386,
+      "rule": "zscore",
+      "share_of_flags_that_are_errors": 0.9219030017921147,
+      "weeks_flagged": 58.333333333333336
+    },
+    {
+      "error_rate": 0.06,
+      "errors_caught": 0.4941589573982455,
+      "real_events_destroyed": 0.5744632012747954,
+      "rule": "mad",
+      "share_of_flags_that_are_errors": 0.33250880627231955,
+      "weeks_flagged": 254.66666666666666
+    },
+    {
+      "error_rate": 0.06,
+      "errors_caught": 0.7725542330956975,
+      "real_events_destroyed": 0.7339308661772431,
+      "rule": "iqr_rolling",
+      "share_of_flags_that_are_errors": 0.2762444874127219,
+      "weeks_flagged": 473.1666666666667
+    },
+    {
+      "error_rate": 0.1,
+      "errors_caught": 0.3075477244542418,
+      "real_events_destroyed": 0.0,
+      "rule": "zscore",
+      "share_of_flags_that_are_errors": 1.0,
+      "weeks_flagged": 86.5
+    },
+    {
+      "error_rate": 0.1,
+      "errors_caught": 0.4772158925122314,
+      "real_events_destroyed": 0.5372262274436187,
+      "rule": "mad",
+      "share_of_flags_that_are_errors": 0.4614703136754923,
+      "weeks_flagged": 293.6666666666667
+    },
+    {
+      "error_rate": 0.1,
+      "errors_caught": 0.7344692299829833,
+      "real_events_destroyed": 0.6878548672026934,
+      "rule": "iqr_rolling",
+      "share_of_flags_that_are_errors": 0.4050205423246893,
+      "weeks_flagged": 510.8333333333333
+    }
+  ],
+  "worst_share_of_flags_that_are_errors": 0.1448184466081949
+}
