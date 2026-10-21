@@ -1,0 +1,154 @@
+{
+  "anchors": {
+    "best_real_share_pct": [
+      "That falls to {}% under"
+    ],
+    "coverage_line_pct": [
+      "{}% line coverage"
+    ],
+    "detector_over_model_pct": [
+      "{}% of the model's"
+    ],
+    "detector_spread_pts": [
+      "the detector moves it {}\n  points",
+      "with the\ndetector at {}"
+    ],
+    "fixture_items": [
+      "{} items"
+    ],
+    "fixture_weeks": [
+      "{} weeks"
+    ],
+    "iqr_caught_pct": [
+      "catches {}% of them"
+    ],
+    "iqr_destroyed_pct": [
+      "and destroys {}%"
+    ],
+    "model_spread_pts": [
+      "moves the forecast {} points",
+      "most, at {} points",
+      "model's {} against"
+    ],
+    "python_min_version": [],
+    "real_event_band_pct": [
+      "{}% of promotions fall"
+    ],
+    "real_event_median_size": [
+      "median promotion is {} times"
+    ],
+    "tests_total": [
+      "{} tests"
+    ],
+    "treatment_spread_pts": [
+      "the treatment {} points",
+      "the treatment at {}"
+    ],
+    "worst_real_share_pct": [
+      "{}% of what it removes"
+    ],
+    "zscore_at_doubling_pct": [
+      "caught {}% of the time"
+    ],
+    "zscore_at_thousandfold_pct": [
+      "and {}% at a thousandfold"
+    ],
+    "zscore_caught_pct": [
+      "catches {}% of the errors"
+    ],
+    "zscore_destroyed_pct": [
+      "destroys {}% of the"
+    ]
+  },
+  "badge_only": [
+    "python_min_version"
+  ],
+  "checked_documents": [
+    "README.md",
+    "docs/adr/ADR-001-label-the-two-kinds-of-outlier-and-never-let-a-rule-see-the-label.md",
+    "docs/adr/ADR-002-report-the-spread-across-equal-sized-choices.md",
+    "docs/adr/ADR-003-what-a-generated-history-cannot-establish.md",
+    "src/dcc/__init__.py",
+    "src/dcc/cli.py",
+    "src/dcc/compare.py",
+    "src/dcc/errors.py",
+    "src/dcc/generator.py",
+    "src/dcc/models.py",
+    "src/dcc/outliers.py",
+    "src/dcc/treatments.py",
+    "experiments/exp01_what_cleaning_removes.py",
+    "experiments/exp02_cleaning_against_the_model.py",
+    "experiments/exp03_which_errors_are_findable.py"
+  ],
+  "formats": {
+    "best_real_share_pct": "{:.1f}",
+    "coverage_line_pct": "{:.2f}",
+    "detector_over_model_pct": "{:.0f}",
+    "detector_spread_pts": "{:.2f}",
+    "fixture_items": "{:d}",
+    "fixture_weeks": "{:d}",
+    "iqr_caught_pct": "{:.1f}",
+    "iqr_destroyed_pct": "{:.1f}",
+    "model_spread_pts": "{:.2f}",
+    "python_min_version": "{}",
+    "real_event_band_pct": "{:.1f}",
+    "real_event_median_size": "{:.2f}",
+    "tests_total": "{:d}",
+    "treatment_spread_pts": "{:.2f}",
+    "worst_real_share_pct": "{:.1f}",
+    "zscore_at_doubling_pct": "{:.1f}",
+    "zscore_at_thousandfold_pct": "{:.1f}",
+    "zscore_caught_pct": "{:.1f}",
+    "zscore_destroyed_pct": "{:.1f}"
+  },
+  "formatted": {
+    "best_real_share_pct": "35.7",
+    "coverage_line_pct": "100.00",
+    "detector_over_model_pct": "81",
+    "detector_spread_pts": "3.95",
+    "fixture_items": "20",
+    "fixture_weeks": "156",
+    "iqr_caught_pct": "77.2",
+    "iqr_destroyed_pct": "76.8",
+    "model_spread_pts": "4.86",
+    "python_min_version": "3.11",
+    "real_event_band_pct": "65.7",
+    "real_event_median_size": "2.44",
+    "tests_total": "97",
+    "treatment_spread_pts": "2.52",
+    "worst_real_share_pct": "85.5",
+    "zscore_at_doubling_pct": "9.2",
+    "zscore_at_thousandfold_pct": "95.2",
+    "zscore_caught_pct": "34.9",
+    "zscore_destroyed_pct": "5.6"
+  },
+  "generated_blocks": {
+    "README.md": [
+      "detection-table.md",
+      "spread-table.md",
+      "magnitude-table.md"
+    ]
+  },
+  "metrics": {
+    "best_real_share_pct": 35.74698517796474,
+    "coverage_line_pct": 100.0,
+    "detector_over_model_pct": 81.32322084900477,
+    "detector_spread_pts": 3.9485426785971898,
+    "fixture_items": 20,
+    "fixture_weeks": 156,
+    "iqr_caught_pct": 77.16952833902631,
+    "iqr_destroyed_pct": 76.7963889340701,
+    "model_spread_pts": 4.8553692750666695,
+    "python_min_version": 3.11,
+    "real_event_band_pct": 65.67335243553009,
+    "real_event_median_size": 2.4431641692915105,
+    "tests_total": 97,
+    "treatment_spread_pts": 2.5171495503347066,
+    "worst_real_share_pct": 85.51815533918051,
+    "zscore_at_doubling_pct": 9.197140193590498,
+    "zscore_at_thousandfold_pct": 95.22151816142689,
+    "zscore_caught_pct": 34.89050683840238,
+    "zscore_destroyed_pct": 5.643707998780463
+  },
+  "note": "every value here is read from a run: the test suite, the experiments, the committed fixture, or the project's own configuration. No figure is transcribed by hand"
+}
