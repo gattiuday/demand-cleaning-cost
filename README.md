@@ -4,7 +4,7 @@
 
 [![CI](https://github.com/GITHUB_USERNAME/demand-cleaning-cost/actions/workflows/ci.yml/badge.svg)](https://github.com/GITHUB_USERNAME/demand-cleaning-cost/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.11%20%7C%203.12%20%7C%203.13-blue)
-![Tests](https://img.shields.io/badge/tests-97-brightgreen)
+![Tests](https://img.shields.io/badge/tests-108-brightgreen)
 ![Coverage](https://img.shields.io/badge/coverage-100.00%25-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
@@ -42,7 +42,7 @@ a hundred carrying a data error:
   and the detector is still 81% of the model's effect. One of those decisions gets a bake
   off and a write up. The other is a default.
 
-97 tests, 100.00% line coverage, and every figure above is re-measured by CI and checked
+108 tests, 100.00% line coverage, and every figure above is re-measured by CI and checked
 against this document in both directions on every push.
 
 ## Claim 1: a rule cannot catch errors without removing signal

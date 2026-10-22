@@ -3,7 +3,11 @@
 from __future__ import annotations
 
 import json
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
+from stability import stabilise
 
 OUTPUT_DIR = Path(__file__).resolve().parents[1] / "docs" / "experiments"
 
@@ -24,7 +28,7 @@ HEADLINE_RATE = 0.03
 def emit(name: str, payload: dict, rows: list[tuple] | None = None, headers=()) -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     target = OUTPUT_DIR / f"{name}.json"
-    target.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n")
+    target.write_text(json.dumps(stabilise(payload), indent=2, sort_keys=True) + "\n")
     if rows:
         widths = [
             max(len(str(header)), *(len(str(row[i])) for row in rows))

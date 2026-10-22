@@ -10,54 +10,54 @@
   ],
   "note": "masking does not appear at these error rates: detection rises with the size of the error and plateaus, for every rule, which is the opposite of what this experiment was built to find. What it shows instead is that the undetectable errors are the small ones, and a doubled posting at twice the week's demand is both the commonest error in an order table and almost exactly the size of a promotion on this fixture. A rule reading only the series has nothing to prefer one with",
   "question": "does a larger data error become easier or harder for a rule to find",
-  "real_event_size_median": 2.4431641692915105,
-  "real_event_size_p10": 1.5973131781912284,
-  "real_event_size_p90": 3.670987876367669,
-  "real_events_within_the_doubling_band": 0.6567335243553009,
+  "real_event_size_median": 2.44316,
+  "real_event_size_p10": 1.59731,
+  "real_event_size_p90": 3.67099,
+  "real_events_within_the_doubling_band": 0.656734,
   "replications": 6,
   "series": [
     {
       "errors_caught": {
-        "iqr_rolling": 0.597238808445705,
-        "mad": 0.32870823137684196,
-        "zscore": 0.09197140193590497
+        "iqr_rolling": 0.597239,
+        "mad": 0.328708,
+        "zscore": 0.0919714
       },
       "magnitude": 2.0
     },
     {
       "errors_caught": {
-        "iqr_rolling": 0.9412790521119629,
-        "mad": 0.9888374106173295,
-        "zscore": 0.7634061047790763
+        "iqr_rolling": 0.941279,
+        "mad": 0.988837,
+        "zscore": 0.763406
       },
       "magnitude": 5.0
     },
     {
       "errors_caught": {
-        "iqr_rolling": 0.9710128761535962,
+        "iqr_rolling": 0.971013,
         "mad": 1.0,
-        "zscore": 0.9380939788837862
+        "zscore": 0.938094
       },
       "magnitude": 20.0
     },
     {
       "errors_caught": {
-        "iqr_rolling": 0.9710128761535962,
+        "iqr_rolling": 0.971013,
         "mad": 1.0,
-        "zscore": 0.9522151816142689
+        "zscore": 0.952215
       },
       "magnitude": 100.0
     },
     {
       "errors_caught": {
-        "iqr_rolling": 0.9710128761535962,
+        "iqr_rolling": 0.971013,
         "mad": 1.0,
-        "zscore": 0.9522151816142689
+        "zscore": 0.952215
       },
       "magnitude": 1000.0
     }
   ],
-  "zscore_at_largest": 0.9522151816142689,
-  "zscore_at_smallest": 0.09197140193590497,
+  "zscore_at_largest": 0.952215,
+  "zscore_at_smallest": 0.0919714,
   "zscore_detection_falls_with_magnitude": false
 }

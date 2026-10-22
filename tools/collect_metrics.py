@@ -21,6 +21,9 @@ from pathlib import Path
 
 import pandas as pd
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from stability import stabilise
+
 ROOT = Path(__file__).resolve().parents[1]
 EXPERIMENT_DIR = ROOT / "docs" / "experiments"
 GENERATED_DIR = ROOT / "docs" / "generated"
@@ -325,7 +328,7 @@ def main() -> int:
     if not args.skip_experiments:
         run_experiments()
 
-    metrics = derive()
+    metrics = stabilise(derive())
     GENERATED_DIR.mkdir(parents=True, exist_ok=True)
     blocks = {
         "detection-table.md": render_detection_block(),
